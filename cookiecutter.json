@@ -1,0 +1,18 @@
+{
+    "plugin_type": [
+        "helper",
+        "binaryview",
+        "ui",
+        "architecture"
+    ],
+    "plugin_name": "Sample BinaryNinja Plugin",
+    "project_slug": "{{ cookiecutter.plugin_name.lower().replace(' ', '_').replace('-', '_') }}",
+    "author_name": "Your Name",
+    "author_email": "you@example.com",
+    "description": "This is a short description meant to fit on one line.",
+    "long_description": "This is a longer description meant for a sample plugin that demonstrates the metadata format for Binary Ninja plugins.",
+    "license_name": "MIT",
+    "version": "1.0.0",
+    "minimum_binary_ninja_version": "3164",
+    "__project_name_pascal_case": "{{ cookiecutter.plugin_name.replace('_', ' ').replace('-', ' ').title().replace(' ', '') }}"
+}
