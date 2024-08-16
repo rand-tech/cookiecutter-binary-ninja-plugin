@@ -105,10 +105,10 @@ If you encounter installation issues related to Binary Ninja, consult the [offic
 - [ ] Refactor and improve the template
   - [ ] Improve the project structure
 - [ ] Support venv (pydantic)  
-    Using venv (pydantic) is good if you are working on a single plugin for a long time. However, it is not a good solution for small plugins considering how Binary Ninja handles and executes plugins.  
-    If using pydantic, set these Binary Ninja settings:
-      - **`python.virtualenv`** `/path/to/.venv/lib/python3.11/site-packages`  
-      - **`python.binaryOverride`** `/path/to/.venv/bin/python`
+  - Using venv (pydantic) is good if you are working on a single plugin for a long time. However, it is not a good solution for small plugins considering how Binary Ninja handles and executes plugins.
+  - If using pydantic, set these Binary Ninja settings:
+    - **`python.virtualenv`** `/path/to/.venv/lib/python3.11/site-packages`
+    - **`python.binaryOverride`** `/path/to/.venv/bin/python`
 
 ## Resources
 
