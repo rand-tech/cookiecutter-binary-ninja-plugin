@@ -1,0 +1,1 @@
+# cookiecutter-binary-ninja-plugin
