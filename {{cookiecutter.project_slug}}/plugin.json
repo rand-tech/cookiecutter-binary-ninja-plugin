@@ -1,0 +1,48 @@
+{
+    "pluginmetadataversion": 2,
+    "name": "{{ cookiecutter.plugin_name }}",
+    "type": [
+        "{{ cookiecutter.plugin_type }}"
+    ],
+    "api": [
+        "python3"
+    ],
+    "description": "{{ cookiecutter.description }}",
+    "longdescription": "{{ cookiecutter.long_description }}",
+    "license": {
+        "name": "{{ cookiecutter.license_name }}",
+        "text": "{{ cookiecutter.license_name }} License - see LICENSE file"
+    },
+    "platforms": [
+        "Darwin",
+        "Linux",
+        "Windows"
+    ],
+    "installinstructions": {
+        // update here
+        "Darwin": "Install the following pip packages: ...\n\nInstall the following brew packages: ...",
+        "Linux": "Install the following pip packages: ...\n\nInstall the following apt packages: ...",
+        "Windows": "Install the following pip packages: ...\n\nInstall the following libraries: ..."
+    },
+    "dependencies": {
+        "pip": [
+            "array", // TODO: Add pip dependencies
+            "of",
+            "pip",
+            "dependencies"
+        ],
+        "apt": [   // TODO: edit apt dependencies if needed
+            "apt",
+            "packages"
+        ],
+        "installers": [ // TODO: edit installers if needed
+            "https://example.com/this-package.exe"
+        ],
+        "other": [
+            "The sample plugin requires [this random package](https://example.com/this-package/) be installed."
+        ]
+    },
+    "version": "{{ cookiecutter.version }}",
+    "author": "{{ cookiecutter.author_name }}",
+    "minimumbinaryninjaversion": "{{ cookiecutter.minimum_binary_ninja_version }}"
+}
